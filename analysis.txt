@@ -1,0 +1,53 @@
+1. Project Overview
+
+Brief description of the project:
+
+Project: To-Do List Web Application
+Objective: To allow users to manage daily tasks (add, edit, delete, filter) 
+and to demonstrate proper Git workflow with branching and merging.
+
+2. Testing Results
+
+Add a small testing report or summary:
+
+Functional Testing:
+- Add Task: Pass
+- Edit Task: Pass
+- Delete Task: Pass
+- Mark Complete: Pass
+- Filter Tasks: Pass
+
+Negative Testing:
+- Adding empty task: Fail (fixed)
+- Adding duplicate task: Fail (fixed)
+- Long task text display: Pass
+
+3. Issues Faced / Observed
+
+List small issues or bugs you encountered:
+
+1. Merge conflict occurred when the same file was edited in two branches.
+2. Duplicate tasks created when added in multiple branches.
+3. File naming conflict: Task.js and task.js treated as separate files.
+4. Task added without validation allowed empty task.
+5. Mobile layout slightly breaks on very small screens.
+
+4. Solutions / Fixes
+
+Write how each issue was resolved:
+
+- Merge conflicts: Resolved manually by editing conflicting files.
+- Duplicate tasks: Added check to prevent adding same task twice.
+- File naming conflict: Removed duplicate/renamed file to standardize.
+- Empty tasks: Added validation to prevent empty task entry.
+- Mobile layout: Fixed using CSS media queries.
+
+5. Observations / Improvements
+
+Add ideas for future improvements:
+
+- Implement local storage to save tasks permanently.
+- Add task priorities (High/Medium/Low) with color codes.
+- Add due dates and reminders for tasks.
+- Dark/light mode toggle for better UX.
+- Drag-and-drop task ordering.
